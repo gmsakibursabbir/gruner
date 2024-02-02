@@ -9,3 +9,11 @@ accordionTitles.forEach(title => {
 
 
 
+// menu
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.navlinks');
+const login = document.querySelector('.login');
+hamburger.addEventListener('click', () => {
+ navLinks.classList.toggle('active');
+ login.classList.toggle('active');
+});
